@@ -35,8 +35,8 @@ for (int i=1; i <=nu ; i++)
         dias = int.Parse(Console.ReadLine());
         Console.WriteLine("Numero de faltas: ");
         faltas = int.Parse(Console.ReadLine());
-
-        pag_d = sueld / 30;
+        //Joder tio
+        pag_d = sueld / 34;
         suel_t2 = sueld - (faltas * pag_d);
         suma2 = suma2 + suel_t2;
         cont2++;
